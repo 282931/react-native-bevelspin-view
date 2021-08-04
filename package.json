@@ -1,16 +1,11 @@
 {
   "name": "react-native-bevelspin-view",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "main": "index.ts",
   "license": "Apache-2.0",
   "description": "React native bevel spin view component",
   "author": "Theo <for4die@sina.com> (https://github.com/282931)",
   "scripts": {
-    "lint": "yarn eslint index.ts src example/scripts example/src --ext .js,.ts,.tsx",
-    "lint:fix": "yarn lint --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint-and-test": "yarn tsc && yarn lint && yarn jest",
     "start": "echo ----- Check example folder  ----- 👻",
     "publish": "npm publish",
     "publish:beta": "npm publish --tag beta"
@@ -21,8 +16,6 @@
     "@types/react": "^17.0.15",
     "@types/react-native": "^0.64.12",
     "@types/react-test-renderer": "^17.0.1",
-    "@types/ramda": "0.27.32",
-
     "babel-jest": "27.0.6",
     "eslint": "^7.32.0",
     "eslint-plugin-detox": "^1.0.0",
@@ -38,7 +31,6 @@
     "react-native-testing-library": "^6.0.0",
     "react-test-renderer": "17.0.2",
     "typescript": "4.2.3",
-    "ramda":"0.27.1",
     "react-native-reanimated": "2.2.0"
   },
   "peerDependencies": {
@@ -90,10 +82,6 @@
     "3d"
   ],
   "contributors": [
-    {
-      "name": "Theo",
-      "email": "for4die@sina.com",
-      "url": "https://github.com/282931"
-    }
+    "Theo <for4die@sina.com> (https://github.com/282931)"
   ]
 }

@@ -8,7 +8,7 @@ import Animated, {
 import React, { useEffect } from 'react';
 
 import { BevelViewProps } from './BevelView.props';
-import { flatten } from 'ramda';
+import {StyleSheet} from 'react-native'
 
 export function BevelView(props: BevelViewProps) {
   const {
@@ -20,7 +20,7 @@ export function BevelView(props: BevelViewProps) {
     perspective = 200,
   } = props;
   const defaultZIndex = { zIndex: 1 };
-  const style = flatten([defaultZIndex, BevelStyle]);
+  const style = StyleSheet.flatten([defaultZIndex, BevelStyle])
   const r = useSharedValue(0);
   useEffect(() => {
     setTimeout(() => {
