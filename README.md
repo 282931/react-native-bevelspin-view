@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/react-native-bevelspin-view.svg)](https://www.npmjs.com/package/react-native-bevelspin-view)
 [![npm](https://img.shields.io/npm/dm/react-native-bevelspin-view.svg)](https://www.npmjs.com/package/react-native-bevelspin-view)
 ![license](https://img.shields.io/npm/l/react-native-bevelspin-view.svg)
-| IOS wiget                               |                       Demo                        |
+| IOS widget                              |                       Demo                        |
 | :-------------------------------------- | :-----------------------------------------------: |
 | ![IOS wiget Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/ios-native.gif)      | ![Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/demo.gif)                              |
 
@@ -80,7 +80,7 @@ export default App;
 | children                    |                         -                         |                 `node`                  | Children elements                                                                     |
 | bevelDeg                    |                        30                         |                `number`                 | Degress of the horizontal surface and view default is 30 deg                          |
 | duration                    |                       16000                       |                `number`                 | The time ms of spin a circle,if duration = 0 not spin                                 |
-| delay                       |                         0                         |                `number`                 | The time ms to dealy to spin                                                          |
+| delay                       |                         0                         |                `number`                 | The time ms delay to spin                                                          |
 | perspective                 |                        200                        |                `number`                 | transform perspective property                                                |
 
 **More props**
