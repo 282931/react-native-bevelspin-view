@@ -5,9 +5,9 @@
 [![npm](https://img.shields.io/npm/v/react-native-bevelspin-view.svg)](https://www.npmjs.com/package/react-native-bevelspin-view)
 [![npm](https://img.shields.io/npm/dm/react-native-bevelspin-view.svg)](https://www.npmjs.com/package/react-native-bevelspin-view)
 ![license](https://img.shields.io/npm/l/react-native-bevelspin-view.svg)
-
-![IOS wiget Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/ios-native.gif)
-![Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/demo.gif)
+| IOS wiget                               |                       Demo                        |
+| :-------------------------------------- | :-----------------------------------------------: |
+| ![IOS wiget Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/ios-native.gif)      | ![Demo](https://raw.githubusercontent.com/282931/react-native-bevelspin-view/master/demo.gif)                              |
 
 ## Installation
 
